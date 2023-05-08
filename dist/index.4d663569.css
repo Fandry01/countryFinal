@@ -1,0 +1,79 @@
+body {
+  flex-direction: column;
+  justify-content: center;
+  display: flex;
+}
+
+h1 {
+  text-align: center;
+  text-transform: uppercase;
+  padding-top: 70px;
+  padding-bottom: 20px;
+  font-family: Oswald, sans-serif;
+  font-size: 50px;
+}
+
+h2 {
+  text-align: center;
+  padding-bottom: 20px;
+  font-family: Oswald, sans-serif;
+}
+
+p {
+  font-family: Montserrat, sans-serif;
+}
+
+.form-box {
+  justify-content: center;
+  align-self: center;
+  align-items: center;
+  display: flex;
+}
+
+#input-field {
+  width: 200px;
+  height: 30px;
+  border-style: solid;
+  border-width: .5px;
+  border-radius: 5px;
+  margin-bottom: 25px;
+  font-family: Montserrat, sans-serif;
+}
+
+#button-send {
+  height: 35px;
+  width: 80px;
+  color: #fff;
+  background-color: #008b8b;
+  border-style: none;
+  border-radius: 10px;
+  font-family: Montserrat, sans-serif;
+}
+
+#button-send:hover {
+  background-color: #32cd32;
+}
+
+.country-view {
+  height: 200px;
+  width: 400px;
+  background-color: #f0f8ff;
+  border-radius: 20px;
+  flex-direction: column;
+  justify-content: center;
+  align-self: center;
+  padding: 20px;
+  display: flex;
+}
+
+.country-view ul li {
+  text-align: center;
+  justify-content: center;
+  list-style: none;
+}
+
+.country-view img {
+  width: 75px;
+}
+
+/*# sourceMappingURL=index.4d663569.css.map */
